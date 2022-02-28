@@ -18,7 +18,8 @@
 
     .row {
       margin-bottom: 8rem;
-
+      display: flex;
+      align-items: center;
       @include respond(phone) {
         margin-bottom: 4rem;
       }
@@ -26,6 +27,7 @@
 
     &__text {
       text-align: left;
+      // vertical-align: middle;
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
